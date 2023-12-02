@@ -1,0 +1,28 @@
+{
+  "name": "design-unit-1-mypd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BusinessManBab/Design-Unit-1-MYPD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BusinessManBab/Design-Unit-1-MYPD/issues"
+  },
+  "homepage": "https://github.com/BusinessManBab/Design-Unit-1-MYPD#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^4.13.21",
+    "n": "^9.2.0",
+    "node-json-db": "^1.5.0",
+    "stable": "^0.1.8"
+  }
+}

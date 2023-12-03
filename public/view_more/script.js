@@ -13,8 +13,7 @@
         });
     
     const facility = (await response.json());
-    //console.log("facility + reviews", facility);
-    
+
     const facilityTitle = document.getElementById("facilityTitle");
     facilityTitle.innerHTML = facility.facility_title;
 

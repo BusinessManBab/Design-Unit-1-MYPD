@@ -9,7 +9,6 @@ function viewMore(facilityIndex) {
 
 (async () => {
     const reviews = document.querySelector(".reviews");
-
     const response = await fetch("https://pdev.jooo.tech/api/v1/reviews", {
         method: "POST", 
     });
@@ -17,9 +16,7 @@ function viewMore(facilityIndex) {
     
     for (var i=0; i < facilitiesArr.length; i++) {
         const facility = facilitiesArr[i];
-        //for (const review of facility.reviews) {
         const review = facility.reviews[0];
-        //console.log (review)
         const template = `
         <h1 id="facility_title">
             ${facility.facility_title}

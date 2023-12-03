@@ -8,7 +8,6 @@ function submitReview() {
         id: facilityIndex
     };
     daNewReview.review_text = document.getElementById("textbox").value;
-    console.log("daNewReview.review_text, ", daNewReview.review_text)
     
     const response = fetch("https://pdev.jooo.tech/api/v1/newReview", {
             method: "POST",
